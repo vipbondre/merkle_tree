@@ -71,3 +71,5 @@ sudo apt install libssl-dev
 ```
 This will install the required OpenSSL libraries needed for SHA-256 hashing.
 
+**Note:** There is another C++ file, `merkle_tree_inbuild_hash.cpp`, which uses the inbuilt hash function from the `std` library instead of SHA hashing from an external library.
+
